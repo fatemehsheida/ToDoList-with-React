@@ -12,7 +12,7 @@ export default function TaskRow({ task, onDeleteTask, onEditeTask }: Props) {
   return (
     <tr>
       <td>
-        <input type="radio" name="check" id="check"  className="accent-orange-400/25 cursor-pointer"/>
+        <input type="checkbox" name="check" id="check"  className="accent-orange-400/25 cursor-pointer"/>
       </td>
       {/* <td>{task.id}</td> */}
       <td>{task.text}</td>
